@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>input</title>
+</head>
+<body>
+<label>enter your name:</label> 
+<input type="text" onfocus="myfunction(this)" onfocusout="myfunction1(this)" >
+<p>when the input field gets focus, a function is triggered which changes the background color</p>
+<script>
+    function myfunction(x)
+    {
+        document.body.style.background="red";
+    }
+    function myfunction1(x)
+    {
+        document.body.style.background="green";
+    }
+</script>
+</body>
+</html>
